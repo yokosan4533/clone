@@ -1,0 +1,21 @@
+body{
+  margin:0;
+}
+
+#header{
+  background-color:red;
+  height:80px;
+}
+#section{
+  background-color:blue;
+  font-color:white;
+  height:500px;
+}
+#footer{
+  background-color:black;
+  height:80px;
+}
+#font{
+  color:white;
+  text-align: center;
+}
