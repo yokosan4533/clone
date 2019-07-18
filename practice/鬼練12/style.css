@@ -1,0 +1,33 @@
+.oya{
+  width: 500px;
+  height: 200px;
+  background: #f6f5f4;
+  overflow: hidden;
+}
+.ko-wrap{
+  float: right;
+  overflow: hidden;
+  position: relative;
+  top: 50px;
+}
+.ko{
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+.ko:last-child{
+  margin-right: 0;
+}
+.ko1{
+  background: #ff9abc;
+}
+.ko2{
+  background: #f9b9ff;
+}
+.ko3{
+  background: #cbb8ff;
+}
+.ko4{
+  background: #acb5ff;
+}

@@ -1,0 +1,45 @@
+body{
+ margin:0;
+}
+
+.oya{
+  background-color:#f6f5f4;
+  height:200px;
+  width:980px;
+}
+
+.ko{
+  position:relative;
+  top:50px;
+  height:100px;
+  width:100px;
+}
+
+.ko-wrap{
+  float:right;
+}
+
+.ko1{
+  float:left;
+  margin-left:10px;
+  background: #ff9abc;
+}
+
+.ko2{
+  float:left;
+  margin-left:10px;
+  background: #f9b9ff;
+}
+
+
+.ko3{
+ float:left;
+ margin-right: 10px;
+ background: #cbb8ff;
+}
+
+.ko4{
+ float:left;
+ margin-right: 10px;
+ background: #acb5ff;
+}

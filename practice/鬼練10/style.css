@@ -1,0 +1,35 @@
+body{
+  margin:0;
+}
+
+.oya{
+ background-color:#f6f5f4;
+ height: 500px;
+ width:500px;
+ position: relative;
+}
+.ko{
+  height:100px;
+  width:100px;
+  position: absolute;
+}
+.ko1{
+background-color:#ff9abc;
+top:50px;
+left:50px;
+}
+.ko2{
+background-color:#f9b9ff;
+top:100px;
+left:100px;
+}
+.ko3{
+background-color:#cbb8ff;
+top:150px;
+left:150px;
+}
+.ko4{
+background-color:#acb5ff;
+top:200px;
+left:200px;
+}

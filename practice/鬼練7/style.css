@@ -1,0 +1,16 @@
+body{
+  margin:0;
+}
+.oya{
+ background-color:black;
+ height:500px;
+ width:500px;
+}
+.ko{
+ background-color:red;
+ height:100px;
+ width:100px;
+ bottom:400px;
+ margin-left: auto;
+ margin-right: auto;
+}
