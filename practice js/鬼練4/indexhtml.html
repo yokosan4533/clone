@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>鬼練1</title>
+</head>
+<body>
+  <h1>ホームページ</h1>
+  <script>
+   var CHOICES = ['仕事よりも君が大事さ。仕事はもう嫌で嫌で嫌で。。嫌で嫌で嫌で。。ほんと嫌なんだ。',"仕事に決まってるだろ！"];
+   var answer = (Math.floor(Math.random()*2))? CHOICES[0]:CHOICES[1];
+
+     console.log("彼女:仕事と私どっちを取るのよ！");
+     console.log("自分:" + answer);
+
+   if(answer === "仕事に決まってるだろ！"){
+     console.log("彼女:あたたたたたたーー！！");
+     console.log("自分:ひでぶ!!");
+   }else if(answer === "仕事よりも君が大事さ。仕事はもう嫌で嫌で嫌で。。嫌で嫌で嫌で。。ほんと嫌なんだ。"){
+     console.log("彼女:仕事しろ---!!");
+     console.log("自分:ひでぶ!!");
+   };
+  </script>
+</body>
+</html>
