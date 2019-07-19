@@ -1,0 +1,22 @@
+body{
+  margin:0;
+}
+
+.header{
+ height:80px;
+ color:white;
+ background-color:red;
+ text-align: center;
+}
+.main{
+ height:500px;
+ color:white;
+ background-color:blue;
+ text-align: center;
+}
+.footer{
+  height:80px;
+  color:white;
+  background-color:black;
+  text-align: center;
+}

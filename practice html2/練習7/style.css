@@ -1,0 +1,40 @@
+body{
+margin:0;
+}
+
+.oya{
+ height: 500px;
+ width: 500px;
+ background-color: black;
+ position: relative;
+}
+
+.ko{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.ko1{
+  position: absolute;
+  top:50px;
+  left:50px;
+}
+
+.ko2{
+  position: absolute;
+  bottom:50px;
+  left:50px;
+}
+
+.ko3{
+  position: absolute;
+  top:50px;
+  right:50px;
+}
+
+.ko4{
+  position: absolute;
+  bottom:50px;
+  right:50px;
+}

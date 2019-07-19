@@ -1,0 +1,43 @@
+body{
+  margin:0;
+}
+
+.oya{
+ height:200px;
+ width:500px;
+ background-color:#f6f5f4;
+}
+
+.ko-wrap{
+ overflow: hidden;
+ float: right;
+ position: relative;
+ top:50px;
+}
+
+.ko{
+  height:100px;
+  width:100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.ko:last-child{
+  margin-right: 0;
+}
+
+.ko1{
+ background-color:#ff9abc;
+}
+
+.ko2{
+ background-color:#f9b9ff;
+}
+
+.ko3{
+ background-color:#cbb8ff;
+}
+
+.ko4{
+ background-color:#acb5ff;
+}
