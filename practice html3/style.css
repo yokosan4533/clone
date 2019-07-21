@@ -1,0 +1,47 @@
+body{
+  color: #444;
+  margin:0;
+  padding:0;
+}
+
+/* header */
+
+.nav-wrap{
+  overflow: hidden;
+  float:right;
+  position: relative;
+  top:65px;
+}
+
+.title{
+  position: relative;
+  bottom:10px;
+  float:left;
+  left:100px;
+  width:10%;
+  overflow: hidden;
+}
+
+/* nav */
+
+.li{
+  float:left;
+  margin-right: 25px;
+  list-style-type:none;
+}
+
+.type-tag{
+  margin-right: 45px;
+}
+
+
+
+.header{
+  height:120px;
+}
+
+
+
+#top-baner{
+  width:100%;
+}
