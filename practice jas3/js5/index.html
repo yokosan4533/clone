@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>練習</title>
+  </head>
+  <body>
+    <script>
+      const CHOICE = {
+      YOUR: '君だよ<br>',
+      WORK: '仕事に決まってるだろ!<br>'
+    };
+
+      var answer = (Math.floor(Math.random()*2))?CHOICE.YOUR:CHOICE.WORK;
+
+      document.write('彼女:仕事と私どっちが大切なのよ！<br>');
+      document.write('自分:' + answer);
+      if(answer === CHOICE.YOUR){
+        for(i=0;i<100;i++){
+          document.write('自分:愛しているよ<br>')
+        }
+        document.write('彼女:きもっ!!<br>');
+        document.write('自分:ひでぶ!!');
+      }else if(answer === CHOICE.WORK){
+        document.write('彼女:オラッ!!<br>');
+        document.write('自分:ひでぶ!!');
+      }
+
+    </script>
+  </body>
+</html>

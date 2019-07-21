@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>練習</title>
+  </head>
+  <body>
+    <script>
+    var CHOICES = {
+      YOUR: '仕事よりも君が大事さ。仕事はもう嫌で嫌で嫌で。。嫌で嫌で嫌で。。ほんと嫌なんだ。',
+      WORK: '仕事に決まってるだろ！'
+      };
+      var answer = (Math.floor(Math.random()*2)) ? CHOICES.YOUR : CHOICES.WORK;
+
+      console.log('彼女：仕事と私どっちを取るのよ！');
+      console.log('自分：' + answer);
+
+      if(answer === CHOICES.WORK){
+      console.log('彼女：あたたたたたたたっーーー！！');
+      } else if (answer === CHOICES.YOUR) {
+      console.log('彼女：仕事してこいやーーーーーー！！');
+      }
+      console.log('自分：ひでぶっ！！');
+
+    </script>
+  </body>
+</html>
