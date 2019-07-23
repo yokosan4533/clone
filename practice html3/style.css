@@ -2,46 +2,79 @@ body{
   color: #444;
   margin:0;
   padding:0;
+  line-height: 100%;
 }
 
-/* header */
-
-.nav-wrap{
-  overflow: hidden;
-  float:right;
-  position: relative;
-  top:65px;
-}
-
-.title{
-  position: relative;
-  bottom:10px;
-  float:left;
-  left:100px;
-  width:10%;
-  overflow: hidden;
-}
-
-/* nav */
-
-.li{
-  float:left;
-  margin-right: 25px;
-  list-style-type:none;
-}
-
-.type-tag{
-  margin-right: 45px;
-}
-
-
-
+/* ヘッダー */
 .header{
-  height:120px;
+ height:130px;
+ white:980px;
+}
+
+#title-log{
+ width:140px;
+ position: relative;
+ bottom: 10px;
+ left: 95px;
+}
+
+.list-wrap{
+list-style: none;
+overflow: hidden;
+float:right;
+position: relative;
+top:80px;
+}
+
+.list{
+  float: left;
+  margin-right: 10px;
+}
+
+.list:last-child{
+  margin-right: 60px;
+}
+
+/* メインコンテンツ */
+
+#header-bonner{
+  width: 100%;
+}
+
+.main{
+ height:2500px;
+ white:980px;
+}
+
+.introduction{
+  position:relative;
+  top: 120px;
+  text-align: center;
+  display: inline;
+}
+
+.gazou-introduction{
+  position: relative;
+  left: 530px;
+}
+
+.type-wrap{
+  overflow: hidden;
+  float:left;
+  margin-left: 70px;
+  text-align: center;
+  position: relative;
+  top:60px;
+  padding:10px 20px 200px 20px;
+  border-radius: 3px;
+  background-color: #d3d3d3;
 }
 
 
+/* フッター */
 
-#top-baner{
-  width:100%;
+.footer{
+  background: black;
+  height:80px;
+  white:980px;
 }
